@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION</title>
+    <style>
+        nav{
+            background-color: #000000;
+            padding: #ffffff;
+            display: flex;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 15px;
+        }
+        nav div {padding: 5px;}
+        .flexend {justify-content:flex-end;} /* push all colums right/end */
+        .spacearound {justify-content:space-around;}
+        .spacebetween { Justify-content:Space-between;}
+        .split, .leftside, .rightside {display: flex;}
+        .split {justify-content: space-between;}
+    </style>
+</head>
+<body>
+    <nav class="flexend">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </nav>
+
+
+    <nav class="spacearound">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+
+
+
+        <nav class="spacebetween">
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Products</div>
+            <div>Contact</div>
+
+
+            <nav class="split">
+                <div class="leftside">
+                <div>Home</div>
+                <div>About Us</div>
+                <div>Products</div>
+                <div>Contact</div>
+
+                <div class="rightside">
+                <div>FaceBook</div>
+                <div>Instagram</div>
+        
+    </nav>
+</body>
+</html>
