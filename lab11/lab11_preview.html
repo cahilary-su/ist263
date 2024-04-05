@@ -12,16 +12,16 @@
 
         }
         #first {order: 1;}
-        #secind {order: 2;}
+        #second {order: 2;}
         #third {order: 3;}
     </style>
     <script>
         function WinnerMessage() {
-        documnet.getElementById("messages").innerHTML = 'You Won!'
+        document.getElementById("messages").innerHTML = 'You Won!';
         }
 
-        function  TryAgain() {
-            documnet.getElementById("messages").innerHTML = 'Wrong Shell - Try Again'
+        function TryAgain() {
+            document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again';
 
         }
 
@@ -34,10 +34,12 @@
 <body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
     <div class="container">
-    <img src="https://laferger.github.io/ist263/images/walnut.png" alt="first walnut"  class="first" id="first" onclick="WinnerMessage();">
-    <img src="https://laferger.github.io/ist263/images/walnut.png" alt="second walnut" class="second" id="second" onclick="TryAgain();">
-    <img src="https://laferger.github.io/ist263/images/walnut.png" alt="third walnut" class="third" id="third" onclick="TryAgain();">
+    <img src="https://laferger.github.io/ist263/images/walnut.png" alt="first walnut"  id="first" onclick="WinnerMessage()">
+    <img src="https://laferger.github.io/ist263/images/walnut.png" alt="second walnut"  id="second" onclick="TryAgain()">
+    <img src="https://laferger.github.io/ist263/images/walnut.png" alt="third walnut" id="third" onclick="TryAgain()">
     </div>
+
+    <br>
     <div id="messages"></div>
 
 </body>
