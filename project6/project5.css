@@ -1,0 +1,39 @@
+body {background-color: #c6b290;
+font-family:  "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+nav{ border: 3px solid #000000;
+padding: 5px;
+width: 29%;}
+
+nav a:hover{color:#ffffff;}
+
+nav a{color:#000000}
+
+footer{
+    background-color:#fafafa;
+    padding-top:1em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom: .5em;
+}
+
+body{border: solid #000000 6px;
+padding: 5px;}
+
+p,h1,h2,nav {padding:5px;
+margin-left: 5px;}
+
+nav{margin-top:5px;}
+
+footer{margin-bottom:5px;
+border: solid #000000;}
+
+
+
+
+
